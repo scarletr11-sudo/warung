@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f6d28f;
+}
+
+header {
+    text-align: center;
+    background-color: #edb047;
+    padding: 0;
+}
+
+header img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #7a1c1c;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu {
+    position: relative;
+    color: white;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #e67e22;
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    display: inline-block;
+    background: #fffaf4;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card h4 {
+    color: #c0392b;
+}
+
+button {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #7a1c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #edb047;
+    color: white;
+    font-size: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 600px;  
+    width: 100%;
+    height: auto;
+}
